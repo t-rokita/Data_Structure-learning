@@ -1,0 +1,11 @@
+- static array operations 
+- dynamic array operations(maybe write my own dynamic array object)
+keep tracking of the number of elements
+adding elementy will exceed the capacity(create array with twice capcity and copy original
+- list 
+
+
+newbuf = new Type[newsize];
+std::copy_n(oldbuf, std::min(oldsize, newsize), newbuf);
+delete[] oldbuf;
+return newbuf;
